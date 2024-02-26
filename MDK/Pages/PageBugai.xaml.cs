@@ -23,5 +23,19 @@ namespace MDK.Pages
         {
             InitializeComponent();
         }
+
+        private void Kirillov_Click(object sender, RoutedEventArgs e)
+        {
+            PageTikhonov tichonov = new PageTikhonov();
+            tichonov.Show();
+            this.Close();
+        }
+
+        private void Tichonov_Click(object sender, RoutedEventArgs e)
+        {
+            PageTikhonov tichonov = new PageTikhonov();
+            tichonov.Show();
+            this.Close();
+        }
     }
 }

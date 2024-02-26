@@ -23,5 +23,19 @@ namespace MDK.Pages
         {
             InitializeComponent();
         }
+
+        private void Bugai_Click(object sender, RoutedEventArgs e)
+        {
+            PageBugai bugai = new PageBugai();
+            bugai.Show();
+            this.Close();
+        }
+
+        private void Tikhonov_Click(object sender, RoutedEventArgs e)
+        {
+            PageTikhonov tichonov = new PageTikhonov();
+            tichonov.Show();
+            this.Close();
+        }
     }
 }

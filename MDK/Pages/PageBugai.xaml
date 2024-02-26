@@ -9,6 +9,7 @@
     <Grid Background="#FF527925">
         <Button Content="Button" HorizontalAlignment="Left" Margin="285,262,0,0" VerticalAlignment="Top" Background="#FFEC2929"/>
         <Ellipse HorizontalAlignment="Left" Height="100" Margin="113,244,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FFDA2323"/>
-
+        <Button x:Name="Tichonov" Content="Тихонов" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Height="50" Width="120" Click="Tichonov_Click" />
+        <Button x:Name="Kirillov" Content="Кириллов" HorizontalAlignment="Left" Margin="509,347,0,0" VerticalAlignment="Top" Height="50" Width="120" Click="Kirillov_Click" />
     </Grid>
 </Window>

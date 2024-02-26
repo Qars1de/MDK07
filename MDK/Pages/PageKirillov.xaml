@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="PageKirillov" Height="450" Width="800" Background="Gray">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
+        <Button x:Name="Bugai" Content="Бугай" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Height="50" Width="120" Click="Bugai_Click"/>
+        <Button x:Name="Tikhonov" Content="Тихонов" HorizontalAlignment="Left" Margin="495,347,0,0" VerticalAlignment="Top" Height="50" Width="120" Click="Tikhonov_Click"/>
         <Calendar HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top"/>
 
     </Grid>

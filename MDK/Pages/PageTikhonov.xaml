@@ -17,7 +17,8 @@
                 </TransformGroup>
             </Ellipse.RenderTransform>
         </Ellipse>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="362,0,0,0" VerticalAlignment="Center" Height="54" Width="118"/>
+        <Button x:Name="Kirillov" Content="Кириллов" HorizontalAlignment="Center" Margin="0,350,0,0" VerticalAlignment="Top" Height="54" Width="118" Click="Kirillov_Click"/>
+        <Button x:Name="Bugai" Content="Бугай" HorizontalAlignment="Left" Margin="507,350,0,0" VerticalAlignment="Top" Height="54" Width="118" Click="Bugai_Click"/>
 
     </Grid>
 </Window>
