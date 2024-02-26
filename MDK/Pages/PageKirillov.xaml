@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MDK.Pages"
         mc:Ignorable="d"
-        Title="PageKirillov" Height="450" Width="800">
+        Title="PageKirillov" Height="450" Width="800" Background="Gray">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,347,0,0" VerticalAlignment="Top" Height="50" Width="120"/>
+        <Calendar HorizontalAlignment="Center" Margin="0,141,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
